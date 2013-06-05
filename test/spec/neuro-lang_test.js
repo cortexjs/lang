@@ -825,7 +825,7 @@ describe("lang.toQueryString(object)", function(){
 });
 
 
-describe('semi-private: lang.overloadSetter()', function(){
+describe('lang.overloadSetter()', function(){
     
     it('could overload a normal fn', function(){
 
@@ -877,7 +877,7 @@ describe('semi-private: lang.overloadSetter()', function(){
 });
 
 
-describe('semi-private: lang.onceBefore()', function(){
+describe('lang.onceBefore()', function(){
     it('could swap two methods', function(){
         var obj = {
                 real: function(){
@@ -926,7 +926,7 @@ describe('semi-private: lang.onceBefore()', function(){
 });
 
 
-describe('semi-private: lang.memoize(fn)', function(){
+describe('lang.memoize(fn)', function(){
     it('could memoize the result of a function with number params', function(){
         function foo(){
             exec_counter ++;
@@ -950,7 +950,7 @@ describe('semi-private: lang.memoize(fn)', function(){
 });
 
 
-describe("semi-private: lang.pushUnique(array, host)", function(){
+describe("lang.pushUnique(array, host)", function(){
     it("always returns the host", function(){
         var host = [1],
             array = [1,2,3];
