@@ -25,7 +25,7 @@ module.exports = {
     lastsemic: false,
 
     // Report JSHint errors but not fail the task
-    force: true,
+    // force: true,
 
     // Declare commonjs env
     globals: {

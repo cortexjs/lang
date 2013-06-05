@@ -42,4 +42,4 @@ module.exports = function(grunt) {
 
     // grunt.registerTask("test", ["connect", "mocha"]);
     grunt.registerTask("default", ["jshint", "uglify"]);
-}
+};
