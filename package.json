@@ -1,7 +1,7 @@
 {
   "name": "lang",
-  "description": "Neuron lang",
-  "version": "0.1.0",
+  "description": "languange enhancement",
+  "version": "1.0.0",
   "homepage": "https://github.com/kaelzhang/neuro-lang",
   "author": {
     "name": "Kael",
@@ -36,5 +36,5 @@
     "grunt-contrib-watch": "~0.2.0"
   },
   "keywords": [],
-  "main": "lib/index.js"
+  "main": "index.js"
 }

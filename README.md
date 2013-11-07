@@ -1,6 +1,4 @@
-# neuro-lang
-
-> Neuron lang
+# lang
 
 ## Getting Started
 Before anything taking its part, you should install [node](http://nodejs.org) and "cortex".
@@ -14,29 +12,29 @@ Visit [http://nodejs.org](http://nodejs.org), download and install the proper ve
     # maybe you should use `sudo`
     npm install -g cortex
 
-## Using neuro-lang In Your Project
+## Using lang In Your Project
 
-First, install 'neuro-lang' directly with `ctx install` (recommended)
+First, install 'lang' directly with `cortex install` (recommended)
 	
-	ctx install neuro-lang --save
+	cortex install lang --save
 	
 or, you could update your package.json manually
     
     dependencies: {
-        'neuro-lang': '<version-you-want>'
+        'lang': '<version-you-want>'
     }
     
 and install dependencies
 	
-	ctx install
+	cortex install
     
 Then, use `require` method in your module
     
-    var lang = require('neuro-lang');
+    var lang = require('lang');
     
 Finally, start cortex server
     
-    ctx server
+    cortex server
     
 Then cortex will care all the rest.
 
